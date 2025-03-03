@@ -24,21 +24,21 @@
             <form class="card-body">
               <div class="form-control">
                 <label class="label">
-                  <span class="label-text">Number</span>
+                  <span class="label-text">Account Number</span>
                 </label>
-                <input type="Number" placeholder="Type your number" class="input input-bordered" required />
+                <input value="01521711716" id="account-number" type="Number" placeholder="Type your number" class="input input-bordered" required />
               </div>
               <div class="form-control">
                 <label class="label">
-                  <span class="label-text">PIN</span>
+                  <span  class="label-text">PIN</span>
                 </label>
-                <input type="text" placeholder="Type your Pin" class="input input-bordered" required />
+                <input value="1234" id="pin-number" type="text" placeholder="Type your Pin" class="input input-bordered" required />
                 <label class="label">
                   <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
                 </label>
               </div>
               <div class="form-control mt-6">
-                <button class="btn btn-neutral">Login</button>
+                <button id="login-btn" class="btn btn-neutral">Login</button>
               </div>
             </form>
           </div>
@@ -49,5 +49,6 @@
 
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/Script/login.js"></script>
 </body>
 </html>
